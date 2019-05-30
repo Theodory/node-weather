@@ -6,9 +6,11 @@ let city = 'Dar es salaam';
 let url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
 
 request.get(url,(err,response,body)=>{
-	if(error){
+	if(err){
 		console.log(error);
 	}else{
-		console.log(body);
+		let data = JSON.parse(body);
+		let textMessage = `Here at ${data.name } weather is ${data.main.temp}`
+		console.log(textMessage);
 	}
 })
