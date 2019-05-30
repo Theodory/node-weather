@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Theodory/node-weather/issues"
   },
-  "homepage": "https://github.com/Theodory/node-weather#readme"
+  "homepage": "https://github.com/Theodory/node-weather#readme",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
 }
