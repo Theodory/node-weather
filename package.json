@@ -1,0 +1,19 @@
+{
+  "name": "node-weather",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Theodory/node-weather.git"
+  },
+  "author": "Theodory Faustine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Theodory/node-weather/issues"
+  },
+  "homepage": "https://github.com/Theodory/node-weather#readme"
+}
